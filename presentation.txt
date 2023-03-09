@@ -1,0 +1,35 @@
+Autor: Marian Buzak
+Data: 09.03.2023
+
+---Wstęp---
+Temat: C++ i STL
+
+Rok powstania: 1985(jako rozszerzenie dla języka C)
+Twórca: duński badacz naukowy - Bjarne Stroustrup
+Najnowsza wersja: C++23
+
+---STL---
+Konterer - objekt do przechowywania danych
+Przykłady sekwencyjnych kontenerów: vector, deque, list
+
+Kontenery asocjacyjne: set, multiset, map, multimap, hash_set, hash_map, hash_multiset
+
+Adaptery kontenerów(kontenery adaptacyjne?): queue, priority_queue, stack(kontenery używające inne kontenery jako implementację)
+
+
+
+Komponenty STL:
+algorytmy
+
+kontenery
+
+funkcje
+
+iteratory
+
+
+---Bibliografia---
+https://en.wikipedia.org/wiki/C%2B%2B
+https://en.wikipedia.org/wiki/Standard_Template_Library
+https://en.cppreference.com/w/cpp/container/vector
+https://www.geeksforgeeks.org/queue-cpp-stl/
