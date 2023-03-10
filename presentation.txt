@@ -1,5 +1,5 @@
 Autor: Marian Buzak
-Data: 09.03.2023
+Data: 10.03.2023
 
 ---Wstęp---
 Temat: C++ i STL
@@ -9,12 +9,41 @@ Twórca: duński badacz naukowy - Bjarne Stroustrup
 Najnowsza wersja: C++23
 
 ---STL---
+1. Co to jest STL?
+STL(ang. Standard Template Library) jest zbiorem szablonów klas, które udostępniają struktury danych oraz funkcje np. wektory, kolejki bądź też stosy.
+
+2. Kontenery
 Konterer - objekt do przechowywania danych
-Przykłady sekwencyjnych kontenerów: vector, deque, list
 
-Kontenery asocjacyjne: set, multiset, map, multimap, hash_set, hash_map, hash_multiset
+a) Kontenery sekwencyjne
+- array
+- vector
+- deque
+- forward_list
+- list
 
-Adaptery kontenerów(kontenery adaptacyjne?): queue, priority_queue, stack(kontenery używające inne kontenery jako implementację)
+b) Kontenery asocjacyjne implementują posortowane struktury danych
+- set - kolekcja wartości unikatowych
+- multiset - kolekcja wartości
+- map - kolekcja par klucz-wartość, posortowana po unikatowych kluczach
+- multimap - kolekcja par klucz-wartość, posortowana po kluczach
+
+
+c) Nieuporządkowane kontenery asocjacyjne - haszowane struktury danych
+- hash set
+- hash map
+- hash multiset
+- hash multimap
+
+
+d) Adaptery kontenerów - kontenery używające inne kontenery jako implementację
+- stack(LIFO)
+- queue(FIFO)
+- priority_queue
+
+
+3. Algorytmy w STL
+STL udostępnia także gotową implementację niektórych popularnych algorytmów np. przeszukiwanie drzew binarnych(ang. binary search) lub sortowanie.
 
 
 
@@ -31,5 +60,6 @@ iteratory
 ---Bibliografia---
 https://en.wikipedia.org/wiki/C%2B%2B
 https://en.wikipedia.org/wiki/Standard_Template_Library
-https://en.cppreference.com/w/cpp/container/vector
 https://www.geeksforgeeks.org/queue-cpp-stl/
+https://www.geeksforgeeks.org/cpp-stl-tutorial/
+https://en.cppreference.com/w/cpp/container

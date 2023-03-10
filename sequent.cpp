@@ -37,17 +37,11 @@ int main(int argc, char *argv[]) {
 	// vector
 	vector <Fruit>v;
 	
-	Fruit f_1("apple", "red", 0.215);
-	Fruit f_2("banana", "yellow", 0.287);
-	Fruit f_3("peach", "light orange", 0.302);
-	Fruit f_4("watermelon", "green", 5.841);
-	Fruit f_5("pear", "light green", 0.23);
-	
-	v.push_back(f_1);
-	v.push_back(f_2);
-	v.push_back(f_3);
-	v.push_back(f_4);
-	v.push_back(f_5);
+	v.push_back(Fruit("apple", "red", 0.215));
+	v.push_back(Fruit("banana", "yellow", 0.287));
+	v.push_back(Fruit("peach", "light orange", 0.302));
+	v.push_back(Fruit("watermelon", "green", 5.841));
+	v.push_back(Fruit("pear", "light green", 0.23));
 	
 	for (unsigned int i = 0; i < v.size(); i++) cout << v[i];
 	
